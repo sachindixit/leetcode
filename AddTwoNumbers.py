@@ -41,7 +41,7 @@ class Solution:
 
         l3 = ListNode()
         total = node1.val+node2.val
-        print (total)
+
         carry = 0
         if total > 9:
             carry = 1
@@ -95,8 +95,8 @@ if __name__ == "__main__":
     l2.print_list()
     print('=================')
 
-    atn = Solution()
-    print('calling AddTwoNumbers.addTwoNumbers')
+    solution = Solution()
+    print('calling solution.addTwoNumbers')
     sum_of_two_list = atn.addTwoNumbers(l1.start_node,l2.start_node)
 
     print('print sum_of_two_list')
